@@ -44,6 +44,19 @@
 			</tr>
 		</table>
 	</form>
-
+	<table>
+		<tr>
+			<td>${requestScope.createdUserName}</td>
+		</tr>
+		<tr>
+			<td>${requestScope.createdPassword}</td>
+		</tr>
+		<tr>
+			<td>${requestScope.createdPhoneNum}</td>
+		</tr>
+		<tr>
+			<td>${requestScope.createdEmail}</td>
+		</tr>
+	</table>
 </body>
 </html>
